@@ -9,22 +9,29 @@ Be The Hero
 </h1>
 
 <h2 align="center">
-  Ajude uma ONG e se torne um Herói
+  Ajude uma ONG e torne-se um Herói
 </h2>
 
 <p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/SkyLkr/be-the-hero">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/SkyLkr/be-the-hero">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/SkyLkr/be-the-hero">
+  <img alt="License" src="https://img.shields.io/github/license/SkyLkr/be-the-hero">
+</p>
+
+<p align="center">
   <a href="#projeto">Projeto</a>
-  |
+  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>
-  |
+  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#como-executar">Como executar</a>
-  |
+  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#como-contribuir">Como contribuir</a>
-  |
+  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#licença">Licença</a>
 </p>
 
-<h1>Projeto</h1>
+# Projeto
 
 <p align="center">
   <img width="200" src="./.github/mobile-screenshot.png" />
