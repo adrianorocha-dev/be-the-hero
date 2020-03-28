@@ -25,4 +25,7 @@ Be The Hero
 
 <h1>Project</h1>
 
-<img style="width: 180px" src="./.github/frontend-screenshot.png" />
+<p align="center">
+  <img width="128" src="./.github/mobile-screenshot.png" />
+  <img width="512" src="./.github/frontend-screenshot.png" />
+</p>
