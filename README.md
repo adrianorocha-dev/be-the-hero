@@ -12,20 +12,77 @@ Be The Hero
   Ajude uma ONG e se torne um Herói
 </h2>
 
-<strong>Table of Contents</strong>
+<p align="center">
+  <a href="#projeto">Projeto</a>
+  |
+  <a href="#tecnologias">Tecnologias</a>
+  |
+  <a href="#como-executar">Como executar</a>
+  |
+  <a href="#como-contribuir">Como contribuir</a>
+  |
+  <a href="#licença">Licença</a>
+</p>
 
-<ul>
-  <li><a href="#project">Project</a></li>
-  <li><a href="#technologies">Technologies</a></li>
-  <li><a href="#omniStack">Semana OmniStack</a></li>
-  <li><a href="#how-to">How to Run</a></li>
-  <li><a href="#contribuitions">Contribuitions</a></li>
-  <li><a href="#license">License</a></li>
-</ul>
-
-<h1>Project</h1>
+<h1>Projeto</h1>
 
 <p align="center">
-  <img width="128" src="./.github/mobile-screenshot.png" />
-  <img width="512" src="./.github/frontend-screenshot.png" />
+  <img width="200" src="./.github/mobile-screenshot.png" />
+  <img width="600" src="./.github/frontend-screenshot.png" />
 </p>
+
+Be The Hero é um projeto que visa aproximar ONGs e pessoas interessadas em ajudar.
+
+Através do frontend web, as ONGs pode se cadastrar, e então postar os casos que ocorreram e pedir por ajuda.
+
+Através do app mobile, pessoas podem visualizar os casos enviados pelas ONGs, e entrar em contato para oferecer ajuda.
+
+# Tecnologias
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/)
+- [React](https://reactjs.org)
+- [React Native](https://reactnative.dev)
+- [Expo](https://expo.io)
+
+# Como executar
+
+### Requisitos
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://npmjs.com/)
+- [Expo-CLI](https://expo.io)
+
+## Backend
+
+- Estando na pasta raíz do projeto, navegue para o diretório do servidor com `cd backend`.
+- Instale as dependências usando `npm install`.
+- Realize as migrações do banco de dados com o comando `npx knex migrate:latest`
+- Execute o servidor usando `npm start`.
+
+## Frontend
+
+- Estando na pasta raíz do projeto, navegue para o diretório do frontend com `cd frontend`.
+- Instale as dependências usando `npm install`.
+- Execute o dev server usando `npm start`.
+
+## Mobile
+
+- Estando na pasta raíz do projeto, navegue para o diretório do app mobile com `cd mobile`.
+- Instale as dependências usando `npm install`.
+- Execute o expo usando `expo start`.
+- Execute o app em um emulador ou dispositivo físico:
+  - Para emulador, inicie o emulador desejado (Android ou iOS), depois clique em `Run on Android emulator` ou `Run on iOS simulator`, dependendo da opção desejada.
+  - Para dispositivo físico, instale o app Expo através da loja de aplicativos, e escaneie o QR code.
+
+# Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+# Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
