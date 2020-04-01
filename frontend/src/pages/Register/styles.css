@@ -53,3 +53,25 @@
 .register-container .content form .input-group input + input {
   margin-left: 8px;
 }
+
+@media (max-width: 750px) {
+  .register-container {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .register-container .content {
+    padding: 25px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .register-container .content section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-container .content section h1 {
+    margin-bottom: 5px;
+  }
+}

@@ -23,3 +23,25 @@
   font-size: 32px;
   margin-bottom: 32px;
 }
+
+@media (max-width: 450px) {
+  .logon-container {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .logon-container section.form {
+    margin-right: 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logon-container > img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+}

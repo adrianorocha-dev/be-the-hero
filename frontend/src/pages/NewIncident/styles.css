@@ -46,3 +46,21 @@
 .new-incident-container .content form textarea {
   margin-top: 8px;
 }
+
+@media (max-width: 700px) {
+  .new-incident-container {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .new-incident-container .content {
+    padding: 25px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .new-incident-container .content section {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -85,3 +85,37 @@
   line-height: 21px;
   font-size: 16px;
 }
+
+@media (max-width: 575px) {
+  .profile-container {
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .profile-container header {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .profile-container header img {
+    margin-bottom: 5px;
+  }
+
+  .profile-container header span {
+    margin-left: auto;
+  }
+
+  .profile-container header a {
+    width: 150px;
+    margin-left: 0;
+    line-height: 30px;
+  }
+
+  .profile-container header button {
+    margin-left: auto;
+  }
+
+  .profile-container ul {
+    grid-template-columns: 1fr;
+  }
+}
