@@ -4,6 +4,8 @@
 
 ---
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3e993bf2cc5489c9a45ddc37409e255)](https://app.codacy.com/manual/SkyLkr/be-the-hero?utm_source=github.com&utm_medium=referral&utm_content=SkyLkr/be-the-hero&utm_campaign=Badge_Grade_Settings)
+
 <h1 align="center">
 Be The Hero
 </h1>
